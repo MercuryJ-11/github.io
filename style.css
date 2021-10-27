@@ -1,0 +1,83 @@
+/*general*/
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('components/banner.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+@import url('components/clock.css');
+
+.navbar {
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-around;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+}
+
+.navbar-reserve, .navbar-about {
+  opacity: 0.5;
+}
+
+#more {
+  Font-size: 25px;
+  text-align: center;
+  color:cadetblue;
+  margin-top:10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+opacity: 1;
+font-size:larger;
+}
+
+.standout {
+  font-size:larger;
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.countbut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+body{
+  font-family: 'Grechen Fuemen', cursive;
+  font-weight:lighter;
+  margin:0;
+}
+h1{
+  font-size: 80px;
+  color: rgba(255,255,255,80%);
+}
+h2{
+  color:azure;
+  font-size:40px;
+  font-style:normal;
+  font-weight:lighter;
+}
+h3{
+  color:rgb(25, 10, 59);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+  color:rgb(2, 5, 14);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
