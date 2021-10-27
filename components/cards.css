@@ -1,0 +1,17 @@
+
+.card-white{
+  background-color:rgba(91, 91, 141, 0.11);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img{
+  margin-bottom: 20px;
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px rgb(68, 55, 55);
+  object-fit: cover;
+  height:100px;
+  width: 150px;
+}
